@@ -1,0 +1,129 @@
+.jobs {
+  height: 1540px; }
+  .jobs .job-header {
+    padding: 135px 0 0 0; }
+    .jobs .job-header h3 {
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 400;
+      color: #a7a7a7;
+      text-align: center;
+      padding: 0 0 40px 0;
+      letter-spacing: 2px; }
+    .jobs .job-header h2 {
+      font-family: "Roboto";
+      font-size: 50px;
+      font-weight: 400;
+      text-align: center;
+      padding: 0 0 40px 0; }
+    .jobs .job-header hr {
+      width: 60px;
+      border-top: 2px solid #c41230; }
+    .jobs .job-header p {
+      font-family: "Roboto";
+      font-size: 24px;
+      font-weight: 300;
+      text-align: center;
+      padding: 65px 0 80px 0;
+      max-width: 695px;
+      margin: 0 auto;
+      line-height: 35px; }
+  .jobs .job-offer {
+    height: 685px; }
+    .jobs .job-offer .hover-wrap {
+      width: 100%; }
+      .jobs .job-offer .hover-wrap .offer-a, .jobs .job-offer .hover-wrap .offer-b, .jobs .job-offer .hover-wrap .offer-c {
+        margin: 0 auto;
+        display: block;
+        max-width: 845px;
+        height: 265px; }
+        .jobs .job-offer .hover-wrap .offer-a h3, .jobs .job-offer .hover-wrap .offer-b h3, .jobs .job-offer .hover-wrap .offer-c h3 {
+          font-family: "Roboto";
+          font-size: 20px;
+          font-weight: 500;
+          padding: 50px 0 25px 0; }
+        .jobs .job-offer .hover-wrap .offer-a p, .jobs .job-offer .hover-wrap .offer-b p, .jobs .job-offer .hover-wrap .offer-c p {
+          font-family: "Roboto";
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 25px;
+          width: 460px; }
+        .jobs .job-offer .hover-wrap .offer-a:hover, .jobs .job-offer .hover-wrap .offer-b:hover, .jobs .job-offer .hover-wrap .offer-c:hover {
+          background-color: #000;
+          color: #fff; }
+          .jobs .job-offer .hover-wrap .offer-a:hover .btn-style-main, .jobs .job-offer .hover-wrap .offer-b:hover .btn-style-main, .jobs .job-offer .hover-wrap .offer-c:hover .btn-style-main {
+            border: 2px solid #fff;
+            background-color: #000;
+            color: #fff; }
+          .jobs .job-offer .hover-wrap .offer-a:hover .button-wrap .span-style, .jobs .job-offer .hover-wrap .offer-b:hover .button-wrap .span-style, .jobs .job-offer .hover-wrap .offer-c:hover .button-wrap .span-style {
+            color: #fff; }
+        .jobs .job-offer .hover-wrap .offer-a .button-wrap, .jobs .job-offer .hover-wrap .offer-b .button-wrap, .jobs .job-offer .hover-wrap .offer-c .button-wrap {
+          padding-top: 35px; }
+      .jobs .job-offer .hover-wrap:hover {
+        background-color: #000;
+        color: #fff; }
+        .jobs .job-offer .hover-wrap:hover .btn-style-main {
+          border: 2px solid #fff;
+          background-color: #000;
+          color: #fff; }
+        .jobs .job-offer .hover-wrap:hover .button-wrap .span-style {
+          color: #fff; }
+    .jobs .job-offer .mobile-wrap {
+      display: none; }
+
+@media screen and (max-width: 890px) {
+  .jobs .job-header {
+    margin: 0 5% 0 5%; }
+  .jobs .job-offer .hover-wrap .offer-a, .jobs .job-offer .hover-wrap .offer-b, .jobs .job-offer .hover-wrap .offer-c {
+    margin: 0 5% 0 5%; }
+  .jobs .job-offer .mobile-wrap {
+    display: none; } }
+@media screen and (max-width: 719px) {
+  .jobs {
+    height: 1100px; }
+    .jobs .job-header {
+      padding: 90px 0 0 0; }
+      .jobs .job-header h3 {
+        padding-bottom: 20px;
+        letter-spacing: 3px; }
+      .jobs .job-header h2 {
+        font-size: 40px;
+        font-weight: 500; }
+      .jobs .job-header p {
+        padding: 40px 0 85px 0;
+        font-size: 20px;
+        max-width: 260px; }
+    .jobs .job-offer .hover-wrap {
+      display: none; }
+    .jobs .job-offer .mobile-wrap {
+      display: block; }
+      .jobs .job-offer .mobile-wrap .offer-m-a, .jobs .job-offer .mobile-wrap .offer-m-b, .jobs .job-offer .mobile-wrap .offer-m-c {
+        margin: 0 auto;
+        padding-left: 15px;
+        display: block;
+        max-width: 845px;
+        height: 185px;
+        background-color: #f8f7f5; }
+      .jobs .job-offer .mobile-wrap h3 {
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 500;
+        padding: 30px 0 20px 0; }
+      .jobs .job-offer .mobile-wrap p {
+        font-family: "Roboto";
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+        max-width: 460px; }
+      .jobs .job-offer .mobile-wrap .button-wrap {
+        padding-top: 20px; }
+        .jobs .job-offer .mobile-wrap .button-wrap span {
+          margin-right: 10px;
+          font-family: "Roboto";
+          font-size: 14px;
+          font-weight: 300;
+          color: #c41230; }
+      .jobs .job-offer .mobile-wrap .offer-m-b {
+        background-color: #fff; } }
+
+/*# sourceMappingURL=jobs-d.css.map */

@@ -1,0 +1,106 @@
+.footer
+	height: 380px
+	background-color: #222
+
+	.places
+		margin: 0 auto
+		max-width: 930px
+		display: flex
+		justify-content: center
+		display: -webkit-flex
+		justify-content: -webkit-center
+		display: -moz-flex
+		justify-content: -moz-center
+		display: -ms-flex
+		justify-content: -ms-center
+
+		.dubai
+			padding: 130px 0 0 0 
+			display: inline-block
+			max-width: 100%
+			h2
+				color: #fff
+				font:
+					family: 'Roboto'
+					size: 16px
+					weight: 400
+			h2::before
+				content: url(logo/tag.png)
+				margin-right: 10px
+				position: relative
+				top: 6px
+			address
+				padding-top: 20px
+				color: #585858
+				line-height: 25px
+				font:
+					family: 'Roboto'
+					size: 15px
+					weight: 400
+		.beirut
+			@extend .dubai
+
+		.belgrade
+			@extend .dubai
+	
+		.move
+			margin-right: 15%
+
+	.bottom-down
+		display: none
+
+
+@media screen and (max-width: 1024px)
+	.footer
+		.places
+			max-width: 825px
+			padding: 0 4% 0 4%
+
+			.dubai
+				address
+					max-width: 245px
+
+		.bottom-down
+			display: none
+
+
+@media screen and (max-width: 719px)
+	.footer
+		height: 700px
+
+		.places
+			display: block
+
+			.dubai
+				padding: 85px 0 0 0
+				margin-left: 6%
+				display: block
+				address
+					max-width: 225px
+					font-size: 16px
+					padding: 10px 0 0 5px
+
+			.beirut
+				padding-top: 45px
+
+			.belgrade
+				padding-top: 45px
+
+		.bottom-down
+			display: table
+			margin: 50px auto 0
+			img
+				width: 35px
+				height: 30px
+			a:link
+				text-decoration: none
+				color: #666
+				font:
+					family: 'Roboto'
+					size: 14px
+					weight: 300
+				padding-left: 10px
+				
+			.position
+				margin-right: 25px
+

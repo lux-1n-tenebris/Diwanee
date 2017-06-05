@@ -1,0 +1,112 @@
+header {
+  height: 695px;
+  background-image: url("image/desktop-hero-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+  header .header-top {
+    height: 90px;
+    background: transparent;
+    position: fixed;
+    display: block;
+    top: 0;
+    width: 100%;
+    z-index: 999; }
+    header .header-top .logo {
+      display: inline-block;
+      float: left;
+      margin-left: 14%;
+      margin-top: 30px; }
+      header .header-top .logo img {
+        width: 155px;
+        height: 45px; }
+    header .header-top nav {
+      float: right;
+      margin-right: 14%; }
+      header .header-top nav ul {
+        display: block;
+        margin-top: 43px; }
+        header .header-top nav ul li {
+          display: inline-block;
+          margin-right: 45px; }
+          header .header-top nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-family: "Roboto";
+            font-size: 14px;
+            font-weight: 400; }
+    header .header-top #toggle {
+      display: none; }
+  header .hero-text {
+    text-align: center;
+    padding-top: 200px; }
+    header .hero-text h1 {
+      font-family: "Roboto";
+      font-size: 80px;
+      font-weight: 500;
+      padding-bottom: 10px; }
+    header .hero-text hr {
+      width: 60px;
+      border: 1px solid #c41230; }
+    header .hero-text .hero-kicker p {
+      padding-top: 25px;
+      font-size: 24px;
+      font-family: "Helvetica";
+      max-width: 555px;
+      margin: 0 auto; }
+    header .hero-text .hero-kicker-mobile {
+      display: none; }
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 490px;
+    background-size: cover; }
+    header .header-top {
+      height: 80px; }
+      header .header-top .logo {
+        margin-left: 6%;
+        margin-top: 25px; }
+        header .header-top .logo img {
+          width: 135px;
+          height: 40px; }
+      header .header-top nav {
+        margin-right: 25px; }
+        header .header-top nav ul {
+          display: none; }
+      header .header-top #toggle {
+        display: block; }
+    header .hero-text {
+      padding-top: 155px; }
+      header .hero-text h1 {
+        font-size: 70px; }
+      header .hero-text hr {
+        display: none; }
+      header .hero-text .hero-kicker p {
+        padding-top: 35px; }
+      header .hero-text .hero-kicker-mobile {
+        display: none; } }
+@media screen and (max-width: 719px) {
+  header {
+    height: 555px; }
+    header .header-top {
+      height: 70px; }
+      header .header-top .logo {
+        margin-top: 15px; }
+      header .header-top nav ul {
+        display: none; }
+      header .header-top #toggle {
+        display: block; }
+    header .hero-text h1 {
+      font-size: 60px; }
+    header .hero-text .hero-kicker {
+      display: none; }
+      header .hero-text .hero-kicker p {
+        font-size: 20px; }
+    header .hero-text .hero-kicker-mobile {
+      display: block;
+      padding-top: 45px; }
+      header .hero-text .hero-kicker-mobile p {
+        font-family: "Roboto";
+        font-size: 20px;
+        font-weight: 400; } }
+
+/*# sourceMappingURL=header-d.css.map */

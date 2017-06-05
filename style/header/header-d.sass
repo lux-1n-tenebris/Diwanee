@@ -1,0 +1,140 @@
+header
+	height: 695px
+	background:
+		image: url('image/desktop-hero-img.jpg')
+		repeat: no-repeat
+		position: center bottom
+
+	.header-top
+		height: 90px
+		background: transparent
+		position: fixed
+		display: block
+		top: 0
+		width: 100%
+		z-index: 999
+
+		.logo
+			display: inline-block
+			float: left
+			margin-left: 14%
+			margin-top: 30px
+			img
+				width: 155px
+				height: 45px
+
+		nav
+			float: right
+			margin-right: 14%
+			ul
+				display: block
+				margin-top: 43px
+				li
+					display: inline-block
+					margin-right: 45px
+					a
+						text-decoration: none
+						color: #000
+						font:
+							family: 'Roboto'
+							size: 14px
+							weight: 400
+		#toggle
+			display: none
+
+	.hero-text
+		text-align: center
+		padding-top: 200px
+		h1
+			font:
+				family: 'Roboto'
+				size: 80px
+				weight: 500
+			padding-bottom: 10px
+		hr
+			width: 60px
+			border: 1px solid #c41230
+		
+		.hero-kicker
+			p
+				padding-top: 25px
+				font: 
+					size: 24px
+					family: 'Helvetica'
+				max-width: 555px
+				margin: 0 auto
+		.hero-kicker-mobile
+			display: none
+
+
+@media screen and (max-width: 1024px)
+	header
+		height: 490px
+		background: 
+			size: cover
+
+		.header-top
+			height: 80px
+			
+			.logo
+				margin-left: 6%
+				margin-top: 25px
+				img
+					width: 135px
+					height: 40px
+
+			nav
+				margin-right: 25px
+				ul
+					display: none
+			
+			#toggle
+				display: block
+		
+		.hero-text
+			padding-top: 155px
+			h1
+				font: 
+					size: 70px
+			hr
+				display: none
+			.hero-kicker
+				p
+					padding-top: 35px
+			.hero-kicker-mobile
+				display: none
+
+
+@media screen and (max-width: 719px)
+	header
+		height: 555px
+
+		.header-top
+			height: 70px
+		
+			.logo
+				margin-top: 15px
+			nav
+				ul
+					display: none
+		
+			#toggle
+				display: block
+
+		.hero-text
+			h1
+				font-size: 60px
+		
+			.hero-kicker
+				display: none
+				p
+					font-size: 20px
+
+			.hero-kicker-mobile
+				display: block
+				padding-top: 45px
+				p
+					font:
+						family: 'Roboto'
+						size: 20px
+						weight: 400

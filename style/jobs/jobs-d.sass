@@ -1,0 +1,176 @@
+.jobs
+	height: 1540px
+
+	.job-header	
+		padding: 135px 0 0 0 
+		h3
+			font: 
+				family: 'Roboto'
+				size: 14px
+				weight: 400
+			color: #a7a7a7
+			text-align: center
+			padding: 0 0 40px 0
+			letter-spacing: 2px
+		h2
+			font: 
+				family: 'Roboto'
+				size: 50px
+				weight: 400
+			text-align: center
+			padding: 0 0 40px 0
+		hr
+			width: 60px
+			border-top: 2px solid #c41230
+		p
+			font: 
+				family: 'Roboto'
+				size: 24px
+				weight: 300
+			text-align: center
+			padding: 65px 0 80px 0
+			max-width: 695px
+			margin: 0 auto
+			line-height: 35px
+
+	.job-offer
+		height: 685px
+		
+		.hover-wrap
+			width: 100%
+
+			.offer-a
+				margin: 0 auto
+				display: block
+				max-width: 845px
+				height: 265px
+				h3
+					font: 
+						family: 'Roboto'
+						size: 20px
+						weight: 500
+					padding: 50px 0 25px 0
+				p
+					font:
+						family: 'Roboto'
+						size: 18px
+						weight: 300
+					line-height: 25px
+					width: 460px
+				&:hover
+					background-color: #000
+					color: #fff
+
+					.btn-style-main
+						border: 2px solid #fff
+						background-color: #000
+						color: #fff
+
+					.button-wrap
+						.span-style
+							color: #fff
+				
+				.button-wrap
+					padding-top: 35px
+
+			.offer-b
+				@extend .offer-a
+
+			.offer-c
+				@extend .offer-a
+
+			&:hover
+				background-color: #000
+				color: #fff
+
+				.btn-style-main
+					border: 2px solid #fff
+					background-color: #000
+					color: #fff
+
+				.button-wrap
+					.span-style	
+						color: #fff
+
+		.mobile-wrap
+			display: none
+				
+
+@media screen and (max-width: 890px)
+	.jobs
+		.job-header
+			margin: 0 5% 0 5%
+		
+		.job-offer	
+			.hover-wrap
+				.offer-a
+					margin: 0 5% 0 5%
+			
+			.mobile-wrap
+				display: none
+
+
+@media screen and (max-width: 719px)
+	.jobs
+		height: 1100px
+
+		.job-header
+			padding: 90px 0 0 0 
+			h3
+				padding-bottom: 20px
+				letter-spacing: 3px
+			h2
+				font:
+					size: 40px
+					weight: 500
+			p
+				padding: 40px 0 85px 0
+				font:
+					size: 20px
+				max-width: 260px
+		
+		.job-offer
+			.hover-wrap
+				display: none
+		
+			.mobile-wrap
+				display: block
+			
+				.offer-m-a
+					margin: 0 auto
+					padding-left: 15px
+					display: block
+					max-width: 845px
+					height: 185px
+					background-color: #f8f7f5
+				h3
+					font: 
+						family: 'Roboto'
+						size: 18px
+						weight: 500
+					padding: 30px 0 20px 0
+				p
+					font:
+						family: 'Roboto'
+						size: 15px
+						weight: 300
+					line-height: 20px
+					max-width: 460px
+			
+				.button-wrap
+					padding-top: 20px
+					span
+						margin-right: 10px
+						font: 
+							family: 'Roboto'
+							size: 14px
+							weight: 300
+						color: #c41230
+
+				.offer-m-b
+					@extend .offer-m-a
+					background-color: #fff
+
+				.offer-m-c
+					@extend .offer-m-a
+					

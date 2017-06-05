@@ -1,0 +1,100 @@
+.services	
+	display: flex
+	justify-content: center
+	display: -webkit-flex
+	justify-content: -webkit-center
+	display: -moz-flex
+	justify-content: -moz-center
+	display: -ms-flex
+	justify-content: -ms-center
+	background-color: #fbfbfb
+
+	.triangle
+		width: 33.1%
+		height: 480px
+
+		.logos-services
+			padding: 90px 0 40px 0
+			margin: 0 auto
+			background-repeat: no-repeat
+			width: 85px
+			height: 85px
+			display: block
+		h2
+			text-align: center
+			padding-bottom: 20px
+			font: 
+				family: 'Roboto'
+				size: 18px
+				weight: 700
+			letter-spacing: 4px
+		hr
+			width: 55px 
+			border: 1px solid #d0d0d0
+
+		.text-wrap
+			p
+				padding-top: 20px
+				text-align: center
+				max-width: 365px
+				margin: 0 auto
+				font: 
+					family: 'Roboto'
+					size: 16px
+					weight: 300
+				color: #666666
+				line-height: 27px
+		&:hover
+			background-color: #ededed
+			hr
+				border-color: #c4c4c4
+
+	.circle
+		@extend .triangle
+
+	.square
+		@extend .triangle
+
+
+@media screen and (max-width:1024px)
+	.services
+		.triangle 
+			height: 450px
+			
+			.logos-services
+				padding: 45px 0 30px 0
+				width: 65px
+				height: 65px
+			h2
+				font: 
+					size: 20px
+			hr
+				width: 35px
+				
+			.text-wrap
+				max-width: 300px
+				margin: 0 4% 0 4%
+				p
+					font-size: 17px
+
+
+@media screen and (max-width: 719px)
+	.services
+		display: block
+			
+		.triangle
+			width: 100%
+			height: 490px
+
+			.logos-services
+				padding: 55px 0 30px 0
+			hr
+				width: 55px
+				
+			.text-wrap
+				margin: 0 auto
+				p
+					font:
+						size: 18px
+						weight: 300
+					line-height: 30px

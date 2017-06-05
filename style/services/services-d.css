@@ -1,0 +1,79 @@
+.services {
+  display: flex;
+  justify-content: center;
+  display: -webkit-flex;
+  justify-content: -webkit-center;
+  display: -moz-flex;
+  justify-content: -moz-center;
+  display: -ms-flex;
+  justify-content: -ms-center;
+  background-color: #fbfbfb; }
+  .services .triangle, .services .circle, .services .square {
+    width: 33.1%;
+    height: 480px; }
+    .services .triangle .logos-services, .services .circle .logos-services, .services .square .logos-services {
+      padding: 90px 0 40px 0;
+      margin: 0 auto;
+      background-repeat: no-repeat;
+      width: 85px;
+      height: 85px;
+      display: block; }
+    .services .triangle h2, .services .circle h2, .services .square h2 {
+      text-align: center;
+      padding-bottom: 20px;
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 4px; }
+    .services .triangle hr, .services .circle hr, .services .square hr {
+      width: 55px;
+      border: 1px solid #d0d0d0; }
+    .services .triangle .text-wrap p, .services .circle .text-wrap p, .services .square .text-wrap p {
+      padding-top: 20px;
+      text-align: center;
+      max-width: 365px;
+      margin: 0 auto;
+      font-family: "Roboto";
+      font-size: 16px;
+      font-weight: 300;
+      color: #666666;
+      line-height: 27px; }
+    .services .triangle:hover, .services .circle:hover, .services .square:hover {
+      background-color: #ededed; }
+      .services .triangle:hover hr, .services .circle:hover hr, .services .square:hover hr {
+        border-color: #c4c4c4; }
+
+@media screen and (max-width: 1024px) {
+  .services .triangle, .services .circle, .services .square {
+    height: 450px; }
+    .services .triangle .logos-services, .services .circle .logos-services, .services .square .logos-services {
+      padding: 45px 0 30px 0;
+      width: 65px;
+      height: 65px; }
+    .services .triangle h2, .services .circle h2, .services .square h2 {
+      font-size: 20px; }
+    .services .triangle hr, .services .circle hr, .services .square hr {
+      width: 35px; }
+    .services .triangle .text-wrap, .services .circle .text-wrap, .services .square .text-wrap {
+      max-width: 300px;
+      margin: 0 4% 0 4%; }
+      .services .triangle .text-wrap p, .services .circle .text-wrap p, .services .square .text-wrap p {
+        font-size: 17px; } }
+@media screen and (max-width: 719px) {
+  .services {
+    display: block; }
+    .services .triangle, .services .circle, .services .square {
+      width: 100%;
+      height: 490px; }
+      .services .triangle .logos-services, .services .circle .logos-services, .services .square .logos-services {
+        padding: 55px 0 30px 0; }
+      .services .triangle hr, .services .circle hr, .services .square hr {
+        width: 55px; }
+      .services .triangle .text-wrap, .services .circle .text-wrap, .services .square .text-wrap {
+        margin: 0 auto; }
+        .services .triangle .text-wrap p, .services .circle .text-wrap p, .services .square .text-wrap p {
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 30px; } }
+
+/*# sourceMappingURL=services-d.css.map */

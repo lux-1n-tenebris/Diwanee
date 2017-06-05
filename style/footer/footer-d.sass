@@ -1,0 +1,66 @@
+footer
+	height: 70px
+	background-color: #1e1e1e
+
+	.footer-wrap
+		max-width: 920px
+		margin: 0 auto
+		padding-top: 30px
+		p
+			color: #434343
+			float: left
+			font:
+				family: 'Roboto'
+				size: 12px
+				weight: 300
+
+		.right-side
+			float: right
+			position: relative
+			top: -5px
+			img
+				width: 26px
+				height: 22px
+			a:link
+				text-decoration: none
+				color: #666
+				font:
+					family: 'Roboto'
+					size: 14px
+					weight: 300
+
+			.position
+				margin-right: 25px
+	
+	.footer-wrap-mobile
+		display: none
+
+
+@media screen and (max-width: 1024px)
+	footer
+		.footer-wrap
+			margin: 0 38px 0 66px
+		
+		.footer-wrap-mobile
+			display: none
+
+
+@media screen and (max-width: 719px)
+	footer
+		display: block
+		height: 40px
+		
+		.footer-wrap
+			display: none
+		
+		.footer-wrap-mobile
+			height: 40px
+			display: block
+			p
+				font:
+					family: 'Roboto'
+					size: 12px
+					weight: 300
+				color: #313131
+				padding-top: 12px
+				margin-left: 10%
